@@ -1,4 +1,4 @@
 import footballSim as fsim
 
 
-print(fsim.simulategame(5, 90, (0,50), 90, (0,50), fsim.drive_depicted))
+print(fsim.simulategame(5, 60, (0,25), 60, (0,25), fsim.drive_depicted))
