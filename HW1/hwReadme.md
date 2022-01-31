@@ -4,3 +4,10 @@
 
 ### Optional Tasks
 1.) Added the optional 10 yard standard down, so that every 10 yards gained will reset the downs
+
+### Execution
+Execution is done best in a seperate file by calling the `simulategame` function. Below are a couple of snippets of code:
+- To run without visuals: `print(fsim.simulategame(5, 75, (0,25), 75, (0,25)))`.
+- To run with visuals: `print(fsim.simulategame(5, 75, (0,25), 75, (0,25), fsim.drive_depicted))`.
+
+The numerical parameters can be changed to whatever, though no protection is done against data out of bounds or incorrect data types.
